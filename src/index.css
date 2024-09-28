@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black text-white; /* Set the overall background and text colors */
+  margin: 0; /* Remove default margins if necessary */
+  padding: 0; /* Remove default padding */
+}
